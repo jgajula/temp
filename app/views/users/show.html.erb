@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Username:</b>
+  <%= @user.username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%= @user.password %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @user.name %>
+</p>
+
+<p>
+  <b>Disabled:</b>
+  <%= @user.disabled %>
+</p>
+
+<p>
+  <b>Fb username:</b>
+  <%= @user.fb_username %>
+</p>
+
+<p>
+  <b>Tw username:</b>
+  <%= @user.tw_username %>
+</p>
+
+<p>
+  <b>Last login:</b>
+  <%= @user.last_login %>
+</p>
+
+<p>
+  <b>Reset password:</b>
+  <%= @user.reset_password %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @user.email %>
+</p>
+
+<p>
+  <b>Zipcode:</b>
+  <%= @user.zipcode %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

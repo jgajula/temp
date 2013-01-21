@@ -1,0 +1,33 @@
+<h1>Listing givers</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Name</th>
+    <th>Session</th>
+    <th>Taker</th>
+    <th>Product</th>
+    <th>Comment</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @givers.each do |giver| %>
+  <tr>
+    <td><%= giver.user_id %></td>
+    <td><%= giver.name %></td>
+    <td><%= giver.session_id %></td>
+    <td><%= giver.taker_id %></td>
+    <td><%= giver.product_id %></td>
+    <td><%= giver.comment %></td>
+    <td><%= link_to 'Show', giver %></td>
+    <td><%= link_to 'Edit', edit_giver_path(giver) %></td>
+    <td><%= link_to 'Destroy', giver, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Giver', new_giver_path %>

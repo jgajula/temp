@@ -1,0 +1,189 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+.wrap {
+    width:240px!important;
+    margin: 5px!important;
+}
+
+.slides_container {
+    width:900px!important;
+    height:270px;
+}
+.slides_container div {
+    width:900px!important;
+    height:270px;
+    display:block;
+}
+
+.content_wrapper {
+    margin: auto;
+    width: 1200px;
+}
+
+.header_wrapper {
+    padding-top: 20px;
+}
+
+.logo_wrapper {
+    float: left;
+}
+
+.search_box_wrapper {
+    float: left;
+    padding-left: 207px;
+    padding-top: 10px;
+}
+
+.account_links_wrapper {
+    float: right;
+}
+
+.nav_wrapper {
+    clear: both;
+    text-align: center;
+}
+
+.hero_banner_wrapper {
+    padding-left: 300px;
+}
+
+#example {
+    width: 900px!important;
+}
+
+#frame {
+    width: 1010px!important;
+    height: 320px!important;
+}
+
+#slides .prev {
+    left: -29px!important;
+}
+
+#slides .next {
+    left: 855px!important;
+}
+
+.product_wrapper_left {
+    width: 600px;
+    float: left;
+}
+
+.product_wrapper_right {
+    width: 600px;
+    float: left;
+}
+
+.product_list_wrapper {
+    width: 600px;
+}
+
+.product_item {
+    float: left;
+}
+
+.product_list_wrapper {
+    float: left;
+}
+
+.product_item {
+    padding-right: 10px;
+}
+
+.search_box_wrapper .search_field {
+    font-size: 16px;
+    color: #777;
+    border: 0;
+    margin: 0;
+    padding: 11px 0 9px 8px;
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    box-shadow: none;
+    border: 2px solid #ddd;
+    height: 38px;
+    padding: 0 10px 0 1px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.06);
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px;
+    background: white;
+    width: 300px;
+}
+
+.search_box_wrapper .search_submit {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: 40px;
+    background: #00509d;
+    background: -webkit-gradient(linear,left top,left bottom,from(#6FC7F2),to(#0088cc));
+    background: -moz-linear-gradient(top,#6fc7f2,#0088cc);
+    text-decoration: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0079bc',endColorstr='#00509d');
+    color: #fff;
+    padding: .5em 1.2em;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.04);
+    vertical-align: baseline;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    zoom: 1;
+}
+
+.account_links_wrapper {
+    color: #777;
+    font-weight: bold;
+}
+
+.account_links_wrapper a{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.navigation a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.demo-container {
+    width: 250px!important;
+}
+
+.product_item .original_price {
+    text-decoration: line-through;
+}
+
+.product_list_title {
+    padding-bottom: 10px;
+}
+
+.product_list_wrapper {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+

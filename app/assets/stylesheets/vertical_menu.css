@@ -1,0 +1,245 @@
+/* Page */
+body,html,div,blockquote,img,label,p,h1,h2,h3,h4,h5,h6,pre,ul,ol,li,dl,dt,dd,form,a,fieldset,input,th,td{border:0;outline:none;margin:0;padding:0;}
+ul{list-style:none;}
+
+/* Demo Page Styles */
+body {font: normal 13px Arial, sans-serif;}
+h2 {font: normal 26px Arial, sans-serif; padding: 20px 0; margin: 0 0 30px 0;}
+.wrap {width: 960px; margin: 0 auto;}
+.demo-container {padding: 20px 0; width: 200px; float: left;}
+.demo-container.right {float: right;}
+.demo-container h4 {font-size: 14px; margin: 0 0 5px 0;}
+.clear {clear: both;}
+
+/* Vertical Mega Menu Styles */
+.dcjq-vertical-mega-menu .menu{
+font: bold 13px Arial, sans-serif; 
+line-height: 16px; 
+position: relative; /* Required */
+border: 1px solid #999;
+border-bottom: none;
+}
+.dcjq-vertical-mega-menu .menu li a {
+display: block; 
+color: #000; 
+padding: 11px 38px 11px 25px; 
+text-shadow: 1px 1px 1px #fff; 
+text-decoration: none;
+border-bottom: 1px solid #999;
+background: url(images/bg_nav.png) repeat-x 0 0;
+}
+.dcjq-vertical-mega-menu .menu li a:hover, .dcjq-vertical-mega-menu .menu li.mega-hover a {
+background-position: 0 -40px; 
+color: #fff; 
+text-shadow: 1px 1px 1px #000;
+}
+.dcjq-vertical-mega-menu .menu li a.dc-mega {
+position: relative;
+}
+/* Add arrow icon to parent links */
+.dcjq-vertical-mega-menu .menu li a .dc-mega-icon {
+display: block; 
+position: absolute; 
+top: 14px; 
+right: 15px; 
+width: 6px; 
+height: 8px; 
+background: url(images/arrow_right.png) no-repeat -6px 0;
+}
+.dcjq-vertical-mega-menu .menu li a:hover .dc-mega-icon, .dcjq-vertical-mega-menu .menu li.mega-hover a .dc-mega-icon {
+background-position: 0 0;
+}
+/* Mega menu container */
+.dcjq-vertical-mega-menu .menu li .sub-container {
+position: absolute; /* Required */
+overflow: hidden;
+background: url(images/bg_menu.png) no-repeat 100% 100%; /* Add the drop shadow */
+padding: 0 13px 17px 0; /* Padding for drop shadow */
+}
+.dcjq-vertical-mega-menu .menu li .sub-container .sub {
+border: none;
+padding: 15px 15px 5px 15px;
+background: #fff url(images/bg_grad_top.png) repeat-x 0 0;
+border-top: 1px solid #ccc; 
+border-right: 1px solid #bbb;
+border-bottom: 1px solid #bbb;
+border-left: 1px solid #ccc;
+}
+.dcjq-vertical-mega-menu .menu li .sub .row {
+width: 100%; overflow: hidden; /* Clear floats */
+}
+.dcjq-vertical-mega-menu .menu li .sub li {
+float: none; 
+width: 160px; 
+font-size: 1em; 
+font-weight: normal;
+}
+.dcjq-vertical-mega-menu .menu li .sub li.mega-hdr {
+float: left; /* Required */
+margin: 0 5px 10px 5px;
+}
+.dcjq-vertical-mega-menu .menu li .sub a, .dcjq-vertical-mega-menu .menu.left li .sub a {
+background: none; 
+border: none; 
+text-shadow: none;
+float: none;
+color: #000; 
+display: block;
+text-decoration: none; 
+font-size: 0.9em;
+margin-bottom: 0;
+}
+.dcjq-vertical-mega-menu .menu li .sub li.mega-hdr a.mega-hdr-a {
+background: url(images/bg_nav.png) repeat-x 0 -40px; 
+padding: 5px;
+margin-bottom: 5px;
+text-transform: uppercase; 
+font-weight: bold; 
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+text-align: center;
+}
+.dcjq-vertical-mega-menu .menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+color: #000; 
+text-shadow: none;
+}
+.dcjq-vertical-mega-menu .menu .sub li.mega-hdr li {margin-bottom: 3px;}
+.dcjq-vertical-mega-menu .menu .sub li a {
+padding: 3px 3px 3px 15px;
+background: url(images/bullet.png) no-repeat 3px 8px;
+font-weight: normal;
+text-transform: capitalize; font-size: 12px;
+}
+.dcjq-vertical-mega-menu .menu .sub li a:hover {
+color: #fff;
+background: #000 url(images/bullet_white.png) no-repeat 5px 8px;
+}
+.dcjq-vertical-mega-menu .menu .sub ul li {
+padding-right: 0;
+}
+/* Custom mega menu styling */
+.dcjq-vertical-mega-menu .menu li#menu-item-1 .sub .row {
+padding: 10px 10px 0 40px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+/*background: url(images/mens.png) no-repeat 0 center;*/
+}
+.dcjq-vertical-mega-menu .menu li#menu-item-1 .sub .row.last {
+/*background: url(images/ladies.png) no-repeat 0 0;*/
+}
+.dcjq-vertical-mega-menu .menu li#menu-item-1 .sub li.mega-hdr {
+padding: 135px 0 0;
+background-size: auto 120px;
+}
+
+.dcjq-vertical-mega-menu .menu li#menu-item-25 .sub li.mega-hdr {
+    padding: 135px 0 0;
+    background-size: auto 120px;
+}
+
+.dcjq-vertical-mega-menu .menu li#menu-item-49 .sub li.mega-hdr {
+    padding: 135px 0 0;
+    background-size: auto 120px;
+}
+
+.dcjq-vertical-mega-menu .menu li#menu-item-74 .sub li.mega-hdr {
+    padding: 135px 0 0;
+    background-size: auto 120px;
+}
+
+.dcjq-vertical-mega-menu .menu li#menu-item-99 .sub li.mega-hdr {
+    padding: 135px 0 0;
+    background-size: auto 120px;
+}
+
+.dcjq-vertical-mega-menu .menu li#menu-item-124 .sub li.mega-hdr {
+    padding: 135px 0 0;
+    background-size: auto 120px;
+}
+
+li#menu-item-2.mega-hdr {background: url(images/categories/books/health_mind_body.jpg) no-repeat center 0;}
+li#menu-item-6.mega-hdr {background: url(images/categories/books/children.jpg) no-repeat center 0;}
+li#menu-item-10.mega-hdr {background: url(images/categories/books/biography.jpg) no-repeat center 0;}
+li#menu-item-14.mega-hdr {background: url(images/categories/books/literature_fiction.jpg) no-repeat center 0;}
+li#menu-item-18.mega-hdr {background: url(images/categories/books/mystery_thriller.jpg) no-repeat center 0;}
+li#menu-item-22.mega-hdr {background: url(images/categories/books/business_investing.jpg) no-repeat center 0;}
+
+li#menu-item-26.mega-hdr {background: url(images/categories/electronics/tv.jpg) no-repeat center 0;}
+li#menu-item-30.mega-hdr {background: url(images/categories/electronics/camera.jpg) no-repeat center 0;}
+li#menu-item-34.mega-hdr {background: url(images/categories/electronics/cellphone.jpg) no-repeat center 0;}
+li#menu-item-38.mega-hdr {background: url(images/categories/electronics/laptop.jpg) no-repeat center 0;}
+li#menu-item-411.mega-hdr {background: url(images/categories/electronics/software.jpg) no-repeat center 0;}
+li#menu-item-45.mega-hdr {background: url(images/categories/electronics/computer_parts.jpg) no-repeat center 0;}
+
+
+li#menu-item-50.mega-hdr {background: url(images/categories/clothing/clothes.jpg) no-repeat center 0;}
+li#menu-item-54.mega-hdr {background: url(images/categories/clothing/shoes.gif) no-repeat center 0;}
+li#menu-item-58.mega-hdr {background: url(images/categories/clothing/handbag.jpg) no-repeat center 0;}
+li#menu-item-62.mega-hdr {background: url(images/categories/clothing/accessories.jpg) no-repeat center 0;}
+li#menu-item-66.mega-hdr {background: url(images/categories/clothing/jewelry.jpg) no-repeat center 0;}
+li#menu-item-70.mega-hdr {background: url(images/categories/clothing/watches.jpg) no-repeat center 0;}
+
+
+li#menu-item-75.mega-hdr {background: url(images/categories/movies/movies.jpg) no-repeat center 0;}
+li#menu-item-79.mega-hdr {background: url(images/categories/movies/bluray.jpg) no-repeat center 0;}
+li#menu-item-83.mega-hdr {background: url(images/categories/movies/music.jpg) no-repeat center 0;}
+li#menu-item-87.mega-hdr {background: url(images/categories/movies/instruments.jpg) no-repeat center 0;}
+li#menu-item-91.mega-hdr {background: url(images/categories/movies/entertainment.jpg) no-repeat center 0;}
+li#menu-item-95.mega-hdr {background: url(images/categories/movies/videogames.jpg) no-repeat center 0;}
+
+
+li#menu-item-100.mega-hdr {background: url(images/categories/toys/toys.jpg) no-repeat center 0;}
+li#menu-item-104.mega-hdr {background: url(images/categories/toys/games.jpg) no-repeat center 0;}
+li#menu-item-108.mega-hdr {background: url(images/categories/toys/videogames.jpg) no-repeat center 0;}
+li#menu-item-112.mega-hdr {background: url(images/categories/toys/clothing.jpg) no-repeat center 0;}
+li#menu-item-116.mega-hdr {background: url(images/categories/toys/diapers.jpg) no-repeat center 0;}
+li#menu-item-120.mega-hdr {background: url(images/categories/toys/gifts.jpg) no-repeat center 0;}
+
+
+li#menu-item-125.mega-hdr {background: url(images/categories/grocery/grocery.jpg) no-repeat center 0;}
+li#menu-item-129.mega-hdr {background: url(images/categories/grocery/wine.jpg) no-repeat center 0;}
+li#menu-item-133.mega-hdr {background: url(images/categories/grocery/natural.jpg) no-repeat center 0;}
+li#menu-item-137.mega-hdr {background: url(images/categories/grocery/health.jpg) no-repeat center 0;}
+li#menu-item-141.mega-hdr {background: url(images/categories/grocery/beauty.jpg) no-repeat center 0;}
+li#menu-item-145.mega-hdr {background: url(images/categories/grocery/household.jpg) no-repeat center 0;}
+
+
+/*li#menu-item-10.mega-hdr {background: url(images/adidas_2.jpg) no-repeat center 0;}*/
+/*li#menu-item-11.mega-hdr {background: url(images/gola_2.jpg) no-repeat center 0;}*/
+
+li#menu-item-3 li.mega-hdr {padding: 120px 0 0;}
+/*li#menu-item-15.mega-hdr {background: url(images/bag_1.jpg) no-repeat center 0;}*/
+/*li#menu-item-16.mega-hdr {background: url(images/bag_2.jpg) no-repeat center 0;}*/
+/*li#menu-item-17.mega-hdr {background: url(images/bag_3.jpg) no-repeat center 0;}*/
+/*li#menu-item-18.mega-hdr {background: url(images/bag_4.jpg) no-repeat center 0;}*/
+
+/* Styling for menu items with only 2 levels */
+.dcjq-vertical-mega-menu .menu li .sub-container.non-mega .sub {
+padding: 10px;
+background: #fff;
+}
+.dcjq-vertical-mega-menu .menu li .sub-container.non-mega li {
+padding: 0; 
+margin: 0;
+width: 150px;
+float: none;
+}
+
+
+/* Custom styling for 2 levels */
+.dcjq-vertical-mega-menu .menu li#menu-item-2 .sub-container.non-mega .sub {
+width: 480px; 
+height: 180px;
+padding: 20px 10px 10px;
+}
+.dcjq-vertical-mega-menu .menu li#menu-item-2 .sub-container.non-mega li {
+float: left;
+}
+/*li#menu-item-12, li#menu-item-13, li#menu-item-14{*/
+/*padding: 150px 0 0;*/
+/*margin-right: 10px;*/
+/*}*/
+/*li#menu-item-12 {background: url(images/jacket_1.jpg) no-repeat center 0;}*/
+/*li#menu-item-13 {background: url(images/jacket_2.jpg) no-repeat center 0;}*/
+/*li#menu-item-14 {background: url(images/jacket_3.jpg) no-repeat center 0;}*/
+

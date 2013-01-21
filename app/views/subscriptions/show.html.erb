@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Email:</b>
+  <%= @subscription.email %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @subscription.category_id %>
+</p>
+
+<p>
+  <b>Disabled:</b>
+  <%= @subscription.disabled %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @subscription.user_id %>
+</p>
+
+<p>
+  <b>Sent:</b>
+  <%= @subscription.sent %>
+</p>
+
+
+<%= link_to 'Edit', edit_subscription_path(@subscription) %> |
+<%= link_to 'Back', subscriptions_path %>

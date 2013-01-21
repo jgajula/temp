@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @giver.user_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @giver.name %>
+</p>
+
+<p>
+  <b>Session:</b>
+  <%= @giver.session_id %>
+</p>
+
+<p>
+  <b>Taker:</b>
+  <%= @giver.taker_id %>
+</p>
+
+<p>
+  <b>Product:</b>
+  <%= @giver.product_id %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%= @giver.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_giver_path(@giver) %> |
+<%= link_to 'Back', givers_path %>

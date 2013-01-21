@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @taker.user_id %>
+</p>
+
+<p>
+  <b>Session:</b>
+  <%= @taker.session_id %>
+</p>
+
+<p>
+  <b>Disabled:</b>
+  <%= @taker.disabled %>
+</p>
+
+
+<%= link_to 'Edit', edit_taker_path(@taker) %> |
+<%= link_to 'Back', takers_path %>

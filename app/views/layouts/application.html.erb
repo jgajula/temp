@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <%= stylesheet_link_tag "application" %>
+  <%= stylesheet_link_tag "global" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag "vertical_menu" %>
+  <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" %>
+  <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" %>
+  <%= javascript_include_tag "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js" %>
+  <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" %>
+  <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" %>
+  <%= javascript_include_tag "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js" %>
+  <%= javascript_include_tag "slides.min.jquery.js"%>
+
+</head>
+<body>
+  <div class="body_wrapper">
+    <div class="content_wrapper">
+      <div class="header_wrapper">
+        <div class="logo_wrapper">
+          <%= image_tag "logo.png" %>
+        </div>
+        <div class="search_box_wrapper">
+          <input class="search_field" name="search" id="search" type="text"/>
+          <input class="search_submit" type="submit" id="search_submit" name="search_submit" value="search">
+        </div>
+        <div class="account_links_wrapper">
+          <a href="#">Sign In</a>|
+          <a href="#">Forgot Password</a>|
+          <a href="#">Register</a>
+        </div>
+
+      </div>
+      <div class="nav_wrapper">
+        <div class="navigation">
+          <a href="#">Brands</a>
+          <a href="#">Deals</a>
+          <a href="#">Most Popular</a>
+          <a href="#">Suggest</a>
+          <a href="#">About</a>
+        </div>
+      </div>
+      <div class="hero_wrapper">
+        <div class="drop_down_wrapper">
+
+          <div class="wrap">
+            <!--<h2>Wordpress Plugin - jQuery Vertical Mega Menu v 1.1 - <a href="http://www.designchemical.com/blog/index.php/wordpress-plugins/wordpress-plugin-jquery-vertical-mega-menu-widget/">Visit Plugin Site</a></h2>-->
+            <!--<p style="color: #fff;">-->
+            <!--Settings - 3 items per row, effect - slide and menu flyout to the right-->
+            <!--</p>-->
+            <div class="demo-container clear">
+              <div class="dcjq-vertical-mega-menu">
+                <ul id="mega-1" class="menu">
+                  <li id="menu-item-0"><a href="#">Home</a></li>
+                  <li id="menu-item-1"><a href="#">Books</a>
+                    <ul>
+                      <li id="menu-item-2"><a href="#">Health & Mind</a>
+                        <ul>
+                          <li id="menu-item-3"><a href="#">Nike Air Foamposite One</a></li>
+                          <li id="menu-item-4"><a href="#">The Air Jordan 2011</a></li>
+                          <li id="menu-item-5"><a href="#">Nike Hyperfuse Max</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-6"><a href="#">Children's Books</a>
+                        <ul>
+                          <li id="menu-item-7"><a href="#">Supernova Glide 2 W</a></li>
+                          <li id="menu-item-8"><a href="#">adizero adios</a></li>
+                          <li id="menu-item-9"><a href="#">adiSTAR Salvation 2 W</a></li>
+                        </ul></li>
+                      <li id="menu-item-10"><a href="#">Biographys</a>
+                        <ul>
+                          <li id="menu-item-11"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-12"><a href="#">Gola Multi</a></li>
+                          <li id="menu-item-13"><a href="#">Gola Chase</a></li>
+                        </ul></li>
+
+                      <li id="menu-item-14"><a href="#">Literature & Fiction</a>
+                        <ul>
+                          <li id="menu-item-15"><a href="#">Lady Air Pegasus+ 27</a></li>
+                          <li id="menu-item-16"><a href="#">Nike LunarGlide+ 2 </a></li>
+                          <li id="menu-item-17"><a href="#">Nike LunarEclipse+</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-18"><a href="#">Mystery & Thriller</a>
+                        <ul>
+                          <li id="menu-item-19"><a href="#">Adidas Messenger Bag</a></li>
+                          <li id="menu-item-20"><a href="#">Kanadia TR 2 Trail</a></li>
+                          <li id="menu-item-21"><a href="#">Supernova Sequence 3</a></li>
+                        </ul></li>
+                      <li id="menu-item-22"><a href="#">Business & Investing</a>
+                        <ul>
+                          <li id="menu-item-222"><a href="#">Gola Buzz</a></li>
+                          <li id="menu-item-23"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-24"><a href="#">Gola Harrier Multi</a></li>
+                        </ul></li>
+                    </ul>
+                  </li>
+
+                  <li id="menu-item-25"><a href="#">Electronics & Computers</a>
+                    <ul>
+                      <li id="menu-item-26"><a href="#">TV & Video</a>
+                        <ul>
+                          <li id="menu-item-27"><a href="#">Nike Air Foamposite One</a></li>
+                          <li id="menu-item-28"><a href="#">The Air Jordan 2011</a></li>
+                          <li id="menu-item-29"><a href="#">Nike Hyperfuse Max</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-30"><a href="#">Camera & Video</a>
+                        <ul>
+                          <li id="menu-item-31"><a href="#">Supernova Glide 2 W</a></li>
+                          <li id="menu-item-32"><a href="#">adizero adios</a></li>
+                          <li id="menu-item-33"><a href="#">adiSTAR Salvation 2 W</a></li>
+                        </ul></li>
+                      <li id="menu-item-34"><a href="#">CellPhones</a>
+                        <ul>
+                          <li id="menu-item-35"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-36"><a href="#">Gola Multi</a></li>
+                          <li id="menu-item-37"><a href="#">Gola Chase</a></li>
+                        </ul></li>
+
+                      <li id="menu-item-38"><a href="#">Laptops & Tablets</a>
+                        <ul>
+                          <li id="menu-item-39"><a href="#">Lady Air Pegasus+ 27</a></li>
+                          <li id="menu-item-40"><a href="#">Nike LunarGlide+ 2 </a></li>
+                          <li id="menu-item-41"><a href="#">Nike LunarEclipse+</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-411"><a href="#">Software</a>
+                        <ul>
+                          <li id="menu-item-42"><a href="#">Adidas Messenger Bag</a></li>
+                          <li id="menu-item-43"><a href="#">Kanadia TR 2 Trail</a></li>
+                          <li id="menu-item-44"><a href="#">Supernova Sequence 3</a></li>
+                        </ul></li>
+                      <li id="menu-item-45"><a href="#">Computer Accessories</a>
+                        <ul>
+                          <li id="menu-item-46"><a href="#">Gola Buzz</a></li>
+                          <li id="menu-item-47"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-48"><a href="#">Gola Harrier Multi</a></li>
+                        </ul></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-49"><a href="#">Clothing, Shoes & Jewelry</a>
+                    <ul>
+                      <li id="menu-item-50"><a href="#">Clothing</a>
+                        <ul>
+                          <li id="menu-item-51"><a href="#">Nike Air Foamposite One</a></li>
+                          <li id="menu-item-52"><a href="#">The Air Jordan 2011</a></li>
+                          <li id="menu-item-53"><a href="#">Nike Hyperfuse Max</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-54"><a href="#">Shoes</a>
+                        <ul>
+                          <li id="menu-item-55"><a href="#">Supernova Glide 2 W</a></li>
+                          <li id="menu-item-56"><a href="#">adizero adios</a></li>
+                          <li id="menu-item-57"><a href="#">adiSTAR Salvation 2 W</a></li>
+                        </ul></li>
+                      <li id="menu-item-58"><a href="#">Handbags</a>
+                        <ul>
+                          <li id="menu-item-59"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-60"><a href="#">Gola Multi</a></li>
+                          <li id="menu-item-61"><a href="#">Gola Chase</a></li>
+                        </ul></li>
+
+                      <li id="menu-item-62"><a href="#">Accessories</a>
+                        <ul>
+                          <li id="menu-item-63"><a href="#">Lady Air Pegasus+ 27</a></li>
+                          <li id="menu-item-64"><a href="#">Nike LunarGlide+ 2 </a></li>
+                          <li id="menu-item-65"><a href="#">Nike LunarEclipse+</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-66"><a href="#">Jewelry</a>
+                        <ul>
+                          <li id="menu-item-67"><a href="#">Adidas Messenger Bag</a></li>
+                          <li id="menu-item-68"><a href="#">Kanadia TR 2 Trail</a></li>
+                          <li id="menu-item-69"><a href="#">Supernova Sequence 3</a></li>
+                        </ul></li>
+                      <li id="menu-item-70"><a href="#">Watches</a>
+                        <ul>
+                          <li id="menu-item-71"><a href="#">Gola Buzz</a></li>
+                          <li id="menu-item-72"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-73"><a href="#">Gola Harrier Multi</a></li>
+                        </ul></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-74"><a href="#">Movies, Music & Games</a>
+                    <ul>
+                      <li id="menu-item-75"><a href="#">Movies & TV</a>
+                        <ul>
+                          <li id="menu-item-76"><a href="#">Nike Air Foamposite One</a></li>
+                          <li id="menu-item-77"><a href="#">The Air Jordan 2011</a></li>
+                          <li id="menu-item-78"><a href="#">Nike Hyperfuse Max</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-79"><a href="#">Blue-ray</a>
+                        <ul>
+                          <li id="menu-item-80"><a href="#">Supernova Glide 2 W</a></li>
+                          <li id="menu-item-81"><a href="#">adizero adios</a></li>
+                          <li id="menu-item-82"><a href="#">adiSTAR Salvation 2 W</a></li>
+                        </ul></li>
+                      <li id="menu-item-83"><a href="#">Music</a>
+                        <ul>
+                          <li id="menu-item-84"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-85"><a href="#">Gola Multi</a></li>
+                          <li id="menu-item-86"><a href="#">Gola Chase</a></li>
+                        </ul></li>
+
+                      <li id="menu-item-87"><a href="#">Musical Instruments</a>
+                        <ul>
+                          <li id="menu-item-88"><a href="#">Lady Air Pegasus+ 27</a></li>
+                          <li id="menu-item-89"><a href="#">Nike LunarGlide+ 2 </a></li>
+                          <li id="menu-item-90"><a href="#">Nike LunarEclipse+</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-91"><a href="#">Entertainment</a>
+                        <ul>
+                          <li id="menu-item-92"><a href="#">Adidas Messenger Bag</a></li>
+                          <li id="menu-item-93"><a href="#">Kanadia TR 2 Trail</a></li>
+                          <li id="menu-item-94"><a href="#">Supernova Sequence 3</a></li>
+                        </ul></li>
+                      <li id="menu-item-95"><a href="#">Video Games</a>
+                        <ul>
+                          <li id="menu-item-96"><a href="#">Gola Buzz</a></li>
+                          <li id="menu-item-97"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-98"><a href="#">Gola Harrier Multi</a></li>
+                        </ul></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-99"><a href="#">Toys, Kids & Baby</a>
+                    <ul>
+                      <li id="menu-item-100"><a href="#">Toys</a>
+                        <ul>
+                          <li id="menu-item-101"><a href="#">Nike Air Foamposite One</a></li>
+                          <li id="menu-item-102"><a href="#">The Air Jordan 2011</a></li>
+                          <li id="menu-item-103"><a href="#">Nike Hyperfuse Max</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-104"><a href="#">Games for kids</a>
+                        <ul>
+                          <li id="menu-item-105"><a href="#">Supernova Glide 2 W</a></li>
+                          <li id="menu-item-106"><a href="#">adizero adios</a></li>
+                          <li id="menu-item-107"><a href="#">adiSTAR Salvation 2 W</a></li>
+                        </ul></li>
+                      <li id="menu-item-108"><a href="#">Video Games for kids</a>
+                        <ul>
+                          <li id="menu-item-109"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-110"><a href="#">Gola Multi</a></li>
+                          <li id="menu-item-111"><a href="#">Gola Chase</a></li>
+                        </ul></li>
+
+                      <li id="menu-item-112"><a href="#">Clothing for kids</a>
+                        <ul>
+                          <li id="menu-item-113"><a href="#">Lady Air Pegasus+ 27</a></li>
+                          <li id="menu-item-114"><a href="#">Nike LunarGlide+ 2 </a></li>
+                          <li id="menu-item-115"><a href="#">Nike LunarEclipse+</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-116"><a href="#">Diapers & Wipes</a>
+                        <ul>
+                          <li id="menu-item-117"><a href="#">Adidas Messenger Bag</a></li>
+                          <li id="menu-item-118"><a href="#">Kanadia TR 2 Trail</a></li>
+                          <li id="menu-item-119"><a href="#">Supernova Sequence 3</a></li>
+                        </ul></li>
+                      <li id="menu-item-120"><a href="#">Gifts</a>
+                        <ul>
+                          <li id="menu-item-121"><a href="#">Gola Buzz</a></li>
+                          <li id="menu-item-122"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-123"><a href="#">Gola Harrier Multi</a></li>
+                        </ul></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-124"><a href="#">Grocery, Health & Beauty</a>
+                    <ul>
+                      <li id="menu-item-125"><a href="#">Grocery</a>
+                        <ul>
+                          <li id="menu-item-126"><a href="#">Nike Air Foamposite One</a></li>
+                          <li id="menu-item-127"><a href="#">The Air Jordan 2011</a></li>
+                          <li id="menu-item-128"><a href="#">Nike Hyperfuse Max</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-129"><a href="#">Wine</a>
+                        <ul>
+                          <li id="menu-item-130"><a href="#">Supernova Glide 2 W</a></li>
+                          <li id="menu-item-131"><a href="#">adizero adios</a></li>
+                          <li id="menu-item-132"><a href="#">adiSTAR Salvation 2 W</a></li>
+                        </ul></li>
+                      <li id="menu-item-133"><a href="#">Natural & Organic</a>
+                        <ul>
+                          <li id="menu-item-134"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-135"><a href="#">Gola Multi</a></li>
+                          <li id="menu-item-136"><a href="#">Gola Chase</a></li>
+                        </ul></li>
+
+                      <li id="menu-item-137"><a href="#">Health</a>
+                        <ul>
+                          <li id="menu-item-138"><a href="#">Lady Air Pegasus+ 27</a></li>
+                          <li id="menu-item-139"><a href="#">Nike LunarGlide+ 2 </a></li>
+                          <li id="menu-item-140"><a href="#">Nike LunarEclipse+</a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-141"><a href="#">Beauty</a>
+                        <ul>
+                          <li id="menu-item-142"><a href="#">Adidas Messenger Bag</a></li>
+                          <li id="menu-item-143"><a href="#">Kanadia TR 2 Trail</a></li>
+                          <li id="menu-item-144"><a href="#">Supernova Sequence 3</a></li>
+                        </ul></li>
+                      <li id="menu-item-145"><a href="#">Household Supplies</a>
+                        <ul>
+                          <li id="menu-item-146"><a href="#">Gola Buzz</a></li>
+                          <li id="menu-item-147"><a href="#">Gola Harrier</a></li>
+                          <li id="menu-item-148"><a href="#">Gola Harrier Multi</a></li>
+                        </ul></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero_banner_wrapper">
+          <div id="example">
+            <img src="img/new-ribbon.png" width="112" height="112" alt="New Ribbon" id="ribbon" style="display: none;">
+            <div id="slides">
+              <div class="slides_container">
+                <a href="http://www.flickr.com/photos/jliba/4665625073/" title="145.365 - Happy Bokeh Thursday! | Flickr - Photo Sharing!" target="_blank"><img src="/assets/images/slide1.png" width="850" height="270" alt="Slide 1"></a>
+                <a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="Taxi | Flickr - Photo Sharing!" target="_blank"><img src="/assets/images/slide2.png" width="850" height="270" alt="Slide 2"></a>
+                <a href="http://www.flickr.com/photos/childofwar/2984345060/" title="Happy Bokeh raining Day | Flickr - Photo Sharing!" target="_blank"><img src="/assets/images/slide3.png" width="850" height="270" alt="Slide 3"></a>
+                <a href="http://www.flickr.com/photos/b-tal/117037943/" title="We Eat Light | Flickr - Photo Sharing!" target="_blank"><img src="/assets/images/slide4.png" width="850" height="270" alt="Slide 4"></a>
+                <a href="http://www.flickr.com/photos/bu7amd/3447416780/" title="“I must go down to the sea again, to the lonely sea and the sky; and all I ask is a tall ship and a star to steer her by.” | Flickr - Photo Sharing!" target="_blank"><img src="/assets/images/slide1.png" width="850" height="270" alt="Slide 5"></a>
+                <a href="http://www.flickr.com/photos/streetpreacher/2078765853/" title="twelve.inch | Flickr - Photo Sharing!" target="_blank"><img src="/assets/images/slide2.png" width="850" height="270" alt="Slide 6"></a>
+                <a href="http://www.flickr.com/photos/aftab/3152515428/" title="Save my love for loneliness | Flickr - Photo Sharing!" target="_blank"><img src="/assets/images/slide3.png" width="850" height="270" alt="Slide 7"></a>
+              </div>
+              <a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+              <a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+            </div>
+            <img src="img/example-frame.png" width="1000" height="341" alt="Example Frame" id="frame" style="display: none;">
+          </div>
+      </div>
+      <div class="category_wrapper">
+        <div class="product_wrapper_left">
+          <div class="product_list_wrapper">
+            <div class="product_list_title"><h1>Books</h1></div>
+            <div class="product_list">
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+            </div>
+          </div>
+
+          <div class="product_list_wrapper">
+            <div class="product_list_title"><h1>Computer Software</h1></div>
+            <div class="product_list">
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+            </div>
+          </div>
+
+          <div class="product_list_wrapper">
+            <div class="product_list_title"><h1>Toys and Video Games</h1></div>
+            <div class="product_list">
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="product_wrapper_right">
+          <div class="product_list_wrapper">
+            <div class="product_list_title"><h1>Computer Hardware</h1></div>
+            <div class="product_list">
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+            </div>
+          </div>
+
+          <div class="product_list_wrapper">
+            <div class="product_list_title"><h1>Apparel</h1></div>
+            <div class="product_list">
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+            </div>
+          </div>
+
+          <div class="product_list_wrapper">
+            <div class="product_list_title"><h1>Video DVDs</h1></div>
+            <div class="product_list">
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+              <div class="product_item">
+                <div class="product_image_wrapper">
+                  <%= image_tag "products/books/image1.jpg"%>
+                </div>
+                <div class="product_title">
+                  <p>Item Name</p>
+                </div>
+                <div class="product_price">
+                  <span class="original_price">
+                  $10.00
+                  </span>
+                  <span class="sale_price">
+                  $8.00
+                  </span>
+                </div>              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<%= yield %>
+<script type="text/javascript">
+    $(function(){
+        $('#slides').slides({
+            preload: true,
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            pause: 2500,
+            hoverPause: true
+        });
+    });
+</script>
+
+    <%= javascript_include_tag "jquery.hoverIntent.minified.js"%>
+    <%= javascript_include_tag "jquery.dcverticalmegamenu.1.1.js"%>
+    <script type="text/javascript">
+        $(function(){
+            $('#mega-1').dcVerticalMegaMenu({
+                rowItems: '3',
+                speed: 'fast',
+                effect: 'slide',
+                direction: 'right'
+            });
+        });
+    </script>
+
+</body>
+</html>

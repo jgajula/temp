@@ -1,0 +1,27 @@
+<h1>Listing takers</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Session</th>
+    <th>Disabled</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @takers.each do |taker| %>
+  <tr>
+    <td><%= taker.user_id %></td>
+    <td><%= taker.session_id %></td>
+    <td><%= taker.disabled %></td>
+    <td><%= link_to 'Show', taker %></td>
+    <td><%= link_to 'Edit', edit_taker_path(taker) %></td>
+    <td><%= link_to 'Destroy', taker, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Taker', new_taker_path %>

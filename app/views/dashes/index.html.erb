@@ -1,0 +1,29 @@
+<h1>Listing dashes</h1>
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Category</th>
+    <th>Disabled</th>
+    <th>Order</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @dashes.each do |dash| %>
+  <tr>
+    <td><%= dash.product_id %></td>
+    <td><%= dash.category_id %></td>
+    <td><%= dash.disabled %></td>
+    <td><%= dash.order %></td>
+    <td><%= link_to 'Show', dash %></td>
+    <td><%= link_to 'Edit', edit_dash_path(dash) %></td>
+    <td><%= link_to 'Destroy', dash, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Dash', new_dash_path %>

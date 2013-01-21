@@ -1,0 +1,33 @@
+<%= form_for(@dash) do |f| %>
+  <% if @dash.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@dash.errors.count, "error") %> prohibited this dash from being saved:</h2>
+
+      <ul>
+      <% @dash.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :product_id %><br />
+    <%= f.number_field :product_id %>
+  </div>
+  <div class="field">
+    <%= f.label :category_id %><br />
+    <%= f.number_field :category_id %>
+  </div>
+  <div class="field">
+    <%= f.label :disabled %><br />
+    <%= f.check_box :disabled %>
+  </div>
+  <div class="field">
+    <%= f.label :order %><br />
+    <%= f.number_field :order %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,80 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Visible:</b>
+  <%= @product.visible_id %>
+</p>
+
+<p>
+  <b>Upc:</b>
+  <%= @product.upc %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @product.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @product.description %>
+</p>
+
+<p>
+  <b>Original price:</b>
+  <%= @product.original_price %>
+</p>
+
+<p>
+  <b>Sale price:</b>
+  <%= @product.sale_price %>
+</p>
+
+<p>
+  <b>On sale:</b>
+  <%= @product.on_sale %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @product.category %>
+</p>
+
+<p>
+  <b>Brand:</b>
+  <%= @product.brand %>
+</p>
+
+<p>
+  <b>External:</b>
+  <%= @product.external_id %>
+</p>
+
+<p>
+  <b>Source site:</b>
+  <%= @product.source_site %>
+</p>
+
+<p>
+  <b>Rating:</b>
+  <%= @product.rating %>
+</p>
+
+<p>
+  <b>Pic url:</b>
+  <%= @product.pic_url %>
+</p>
+
+<p>
+  <b>Likes:</b>
+  <%= @product.likes %>
+</p>
+
+<p>
+  <b>Disabled:</b>
+  <%= @product.disabled %>
+</p>
+
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
